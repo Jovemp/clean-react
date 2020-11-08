@@ -3,7 +3,6 @@ import Styles from './login-styles.scss'
 import { LoginHeader, Footer, Input, FormStatus } from '@/presentation/components'
 import Context from '@/presentation/contexts/form/form-context'
 
-
 type StateProps = {
   isLoading: boolean
   errorMessage: string
